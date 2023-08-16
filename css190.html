@@ -1,0 +1,29 @@
+<style>
+    img {
+        width:200px;
+    }
+    @media (max-width:600px) {
+        p { background-color: green;}
+        .pc {display: none;}
+        .hand { display : block;}
+    }
+    @media (min-width:600px) {
+        p { background-color: blue;}
+        .pc {display: block;}
+        .hand { display: none;}
+    }
+</style>
+<img src="coffee.jpg" class="pc" />
+<p>표시되는 화면은 ? </p>
+<img src="coffee.jpg" class="hand"/>
+
+<html>
+<body>
+    <div id="mobile">
+        영역 1
+    </div>
+    <div id="desktop">
+        영역 2
+    </div>
+</body>
+</html>
